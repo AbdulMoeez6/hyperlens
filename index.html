@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/lc_lightbox.css"><!-- IMAGE POPUP -->  
     <link rel="stylesheet" href="css/swiper-bundle.min.css"><!-- SWIPER SLIDER CSS -->  
     <link rel="stylesheet" href="css/style.css"><!-- MAIN STYLE SHEET -->  
+    <link rel="stylesheet" href="css/megamenu.css"><!-- MAIN STYLE SHEET --> 
 </head>  
 <body>  
 <div class="loading-area">  
@@ -103,77 +104,77 @@
                     </div>  
                     <!-- MAIN NAVIGATION -->  
                     <div class="header-nav navbar-collapse collapse d-flex justify-content-center">  
-                        <ul class="nav navbar-nav">  
-                            <li class="active">  
-                                <a href="javascript:;">Solutions</a>  
-                                <ul class="sub-menu">  
-                                    <li>  
-                                        <a href="javascript:;">GRC & Compliance</a>  
-                                        <ul class="sub-menu">  
-                                            <li><a href="grc-regulatory-compliance.html">Regulatory Compliance</a></li>  
-                                            <li><a href="grc-policy-management.html">Policy Management</a></li>  
-                                            <li><a href="grc-audit-readiness.html">Audit Readiness</a></li>  
-                                        </ul>  
-                                    </li>  
-                                    <li>  
-                                        <a href="javascript:;">Risk Intelligence</a>  
-                                        <ul class="sub-menu">  
-                                            <li><a href="risk-ai-assessment.html">AI-Powered Assessment</a></li>  
-                                            <li><a href="risk-cloud-security.html">Cloud Security Posture</a></li>  
-                                            <li><a href="risk-third-party.html">Third-Party Risk</a></li>  
-                                            <li><a href="risk-continuous-monitoring.html">Continuous Monitoring</a></li>  
-                                        </ul>  
-                                    </li>  
-                                    <li>  
-                                        <a href="javascript:;">Data Integration</a>  
-                                        <ul class="sub-menu">  
-                                            <li><a href="data-aggregation.html">Hyper Lens Data Aggregation</a></li>  
-                                            <li><a href="data-api-connectors.html">Cloud API Connectors</a></li>  
-                                            <li><a href="data-prep-for-ai.html">Data Preparation for AI</a></li>  
-                                        </ul>  
-                                    </li>  
-                                </ul>  
-                            </li>  
-                            <li>  
-                                <a href="javascript:;">Platform</a>  
-                                <ul class="sub-menu">  
-                                    <li><a href="platform-dashboard.html">The Hyper Lens Dashboard</a></li>  
-                                    <li><a href="platform-visibility.html">Real-Time Visibility</a></li>  
-                                    <li><a href="platform-analytics.html">Advanced Analytics</a></li>  
-                                    <li><a href="platform-alerts.html">Custom Alerts & Reporting</a></li>  
-                                    <li><a href="platform-security-view.html">Unified Security View</a></li>  
-                                </ul>  
-                            </li>  
-                            <li>  
-                                <a href="javascript:;">Services</a>  
-                                <ul class="sub-menu">  
-                                    <li><a href="services-managed-grc.html">Managed GRC & Risk</a></li>  
-                                    <li><a href="services-implementation.html">Implementation & Onboarding</a></li>  
-                                    <li><a href="services-consulting.html">Expert Consulting</a></li>  
-                                    <li><a href="services-support.html">Support & Training</a></li>  
-                                </ul>  
-                            </li>  
-                            <li>  
-                                <a href="javascript:;">Insights</a>  
-                                <ul class="sub-menu">  
-                                    <li><a href="blog.html">Blog / Articles</a></li>  
-                                    <li><a href="whitepapers.html">Whitepapers & Ebooks</a></li>  
-                                    <li><a href="webinars.html">Webinars & Events</a></li>  
-                                    <li><a href="knowledge-base.html">Knowledge Base</a></li>  
-                                </ul>  
-                            </li>  
-                            <li>  
-                                <a href="javascript:;">About</a>  
-                                <ul class="sub-menu">  
-                                    <li><a href="about-us.html">Our Company</a></li>  
-                                    <li><a href="about-vision-technology.html">Our Vision & Technology</a></li>  
-                                    <li><a href="why-hyperlens.html">Why Hyper Lens</a></li>  
-                                    <li><a href="careers.html">Careers</a></li>  
-                                    <li><a href="partners.html">Partners</a></li>  
-                                    <li><a href="faq.html">FAQ</a></li>  
-                                </ul>  
-                            </li>  
-                        </ul>  
+                                                <ul class="nav navbar-nav">
+                            <li class="active"> <!-- "Solutions" li - .active class is kept -->
+                                <a href="javascript:;">Solutions</a>
+                                <ul class="sub-menu mega-menu"> <!-- Added .mega-menu class -->
+                                    <li class="mega-menu-column"> <!-- First column -->
+                                        <a href="javascript:;" class="mega-menu-title">GRC & Compliance</a> <!-- Title for the column -->
+                                        <ul class="mega-menu-links"> <!-- Links for this column -->
+                                            <li><a href="grc-regulatory-compliance.html">Regulatory Compliance</a></li>
+                                            <li><a href="grc-policy-management.html">Policy Management</a></li>
+                                            <li><a href="grc-audit-readiness.html">Audit Readiness</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="mega-menu-column"> <!-- Second column -->
+                                        <a href="javascript:;" class="mega-menu-title">Risk Intelligence</a>
+                                        <ul class="mega-menu-links">
+                                            <li><a href="risk-ai-assessment.html">AI-Powered Assessment</a></li>
+                                            <li><a href="risk-cloud-security.html">Cloud Security Posture</a></li>
+                                            <li><a href="risk-third-party.html">Third-Party Risk</a></li>
+                                            <li><a href="risk-continuous-monitoring.html">Continuous Monitoring</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="mega-menu-column"> <!-- Third column -->
+                                        <a href="javascript:;" class="mega-menu-title">Data Integration</a>
+                                        <ul class="mega-menu-links">
+                                            <li><a href="data-aggregation.html">Hyper Lens Data Aggregation</a></li>
+                                            <li><a href="data-api-connectors.html">Cloud API Connectors</a></li>
+                                            <li><a href="data-prep-for-ai.html">Data Preparation for AI</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Platform</a>
+                                <ul class="sub-menu">
+                                    <li><a href="platform-dashboard.html">The Hyper Lens Dashboard</a></li>
+                                    <li><a href="platform-visibility.html">Real-Time Visibility</a></li>
+                                    <li><a href="platform-analytics.html">Advanced Analytics</a></li>
+                                    <li><a href="platform-alerts.html">Custom Alerts & Reporting</a></li>
+                                    <li><a href="platform-security-view.html">Unified Security View</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Services</a>
+                                <ul class="sub-menu">
+                                    <li><a href="services-managed-grc.html">Managed GRC & Risk</a></li>
+                                    <li><a href="services-implementation.html">Implementation & Onboarding</a></li>
+                                    <li><a href="services-consulting.html">Expert Consulting</a></li>
+                                    <li><a href="services-support.html">Support & Training</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Insights</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html">Blog / Articles</a></li>
+                                    <li><a href="whitepapers.html">Whitepapers & Ebooks</a></li>
+                                    <li><a href="webinars.html">Webinars & Events</a></li>
+                                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;">About</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about-us.html">Our Company</a></li>
+                                    <li><a href="about-vision-technology.html">Our Vision & Technology</a></li>
+                                    <li><a href="why-hyperlens.html">Why Hyper Lens</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="partners.html">Partners</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>  
                 </div>  
             </div>  
@@ -193,7 +194,7 @@
                         <div class="sx-bnr-1-content">  
                             <span class="sx-bnr-1-small-title" data-swiper-parallax="-300">GRC Reimagined For Future</span>  
                             <h2 class="sx-bnr-1-large-title">The Future of Compliance, Delivered Today</h2>  
-                            <div class="sx-bnr-1-info">AI-Powered GRC and Proactive MSP ensure a secure, optimized, and truly resilient tomorrow for your entire business.</div>  
+                            <div class="sx-bnr-1-info">AI-Powered GRC and Proactive MSP for a Secure Tomorrow</div>  
                             <div class="sx-bnr-readmore">  
                                 <a href="about-us.html" class="site-button sx-btn-primary icon">  
                                     <i class="fa fa-long-arrow-right"></i>Learn More  
@@ -376,6 +377,24 @@
                                         </div>  
                                         <div class="col-lg-6 col-md-6">  
                                             <div class="sx-icon-bx-2">  
+                                                <div class="sx-media"><i class="flaticon-mouse"></i></div>  
+                                                <div class="sx-icon-bx-info">  
+                                                    <span class="sx-icon-bx-title">One Lens GRC MSP</span>  
+                                                    <span class="sx-icon-bx-title-info">AI Predictive Power</span>  
+                                                </div>  
+                                            </div>  
+                                        </div>  
+                                        <div class="col-lg-6 col-md-6">  
+                                            <div class="sx-icon-bx-2">  
+                                                <div class="sx-media"><i class="flaticon-mouse"></i></div>  
+                                                <div class="sx-icon-bx-info">  
+                                                    <span class="sx-icon-bx-title">One Lens GRC MSP</span>  
+                                                    <span class="sx-icon-bx-title-info">AI Predictive Power</span>  
+                                                </div>  
+                                            </div>  
+                                        </div>  
+                                        <div class="col-lg-6 col-md-6">  
+                                            <div class="sx-icon-bx-2">  
                                                 <div class="sx-media"><i class="flaticon-download"></i></div>  
                                                 <div class="sx-icon-bx-info">  
                                                     <span class="sx-icon-bx-title">Full Cert Lifecycle Expert</span>  
@@ -446,76 +465,80 @@
   
                 <div class="section-content">  
                     <div class="sx-icon-bx-wrap">  
-                        <div class="row">  
-                            <!-- Block one -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-data"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">Unified GRC MSP View</h4></a>  
-                                            <p>One platform lens for GRC and MSP status always up.</p>  
-                                        </div>  
-                                    </div>  
+                       <div class="row">
+    <!-- Block One -->
+    <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+        <div class="sx-icon-bx-1">
+            <div class="sx-icon-box-wraper">
+                <div class="sx-icon-bx-icon">
+                    <span class="sx-text-primary"><i class="flaticon-data"></i></span>
+                </div>
+                <div class="icon-content">
+                    <a href="why-hyperlens.html"><h4 class="sx-tilte">Total Cert Mastery</h4></a>
+                    <p>Deep NIST, CMMC, SOC 2, ISO, HIPAA, FedRAMP knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Block Two -->
+     <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+        <div class="sx-icon-bx-1">
+            <div class="sx-icon-box-wraper">
+                <div class="sx-icon-bx-icon">
+                    <span class="sx-text-primary"><i class="flaticon-programmer"></i></span>
+                </div>
+                <div class="icon-content">
+                    <a href="why-hyperlens.html"><h4 class="sx-tilte">AI-Powered Vision</h4></a>
+                    <p>Predictive insights for proactive GRC and IT management.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Block Three -->
+    <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+        <div class="sx-icon-bx-1">
+            <div class="sx-icon-box-wraper">
+                <div class="sx-icon-bx-icon">
+                    <span class="sx-text-primary"><i class="flaticon-positive-review"></i></span>
+                </div>
+                <div class="icon-content">
+                    <a href="why-hyperlens.html"><h4 class="sx-tilte">Unified Platform</h4></a>
+                    <p>Single source of truth for GRC status & MSP operations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Block Four -->
+    <div class="col-lg-3 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+        <div class="sx-icon-bx-1">
+            <div class="sx-icon-box-wraper">
+                <div class="sx-icon-bx-icon">
+                    <span class="sx-text-primary"><i class="flaticon-profit"></i></span>
+                </div>
+                <div class="icon-content">
+                    <a href="why-hyperlens.html"><h4 class="sx-tilte">Integrated Elite Service</h4></a>
+                    <p>GRC plus MSP: a potent blend few offer. We don't just certify.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- WHY CHOOSE-US SECTION END -->  
+  
+     <!-- TESTIMONIALS -->  
+                <div class="sx-testimonial-bx-1">  
+                    <div class="owl-carousel testimonial-2-wrap owl-btn-vertical-center">  
+                        <div class="item">  
+                            <div class="testimonial-2 hover-animation-1">  
+                                <div class="testimonial-text">  
+                                    <span class="testimonial-quote sx-text-primary"><i class="flaticon-quote"></i></span>  
+                                    <p>"Contract Sent has greatly benefited from the expertise of Hyper Lens in maintaining platform security and ensuring compliance with industry standards such as GRC, CMMC, and SOC 2. Their in-depth knowledge of security and compliance has provided the assurance needed as Contract Sent scales its AI contract management services."</p>  
                                 </div>  
-                            </div>  
-                            <!-- Block two -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-programmer"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">AI & Smart Automation</h4></a>  
-                                            <p>Efficiency, deep insights, plus a proactive risk stance.</p>  
-                                        </div>  
-                                    </div>  
-                                </div>  
-                            </div>  
-                            <!-- Block three -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-positive-review"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">Total Cert Mastery</h4></a>  
-                                            <p>Deep NIST, CMMC, SOC 2, ISO, HIPAA, FedRAMP knowledge.</p>  
-                                        </div>  
-                                    </div>  
-                                </div>  
-                            </div>  
-                            <!-- Block four -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-profit"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">Integrated Elite Service</h4></a>  
-                                            <p>GRC plus MSP: a potent blend few offer. We don't just certify.</p>  
-                                        </div>  
-                                    </div>  
-                                </div>  
-                            </div>  
-                            <!-- Block five -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-chart"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">Real Business Gains</h4></a>  
-                                            <p>Peace of mind, market entry, resilience, reduced risk, value.</p>  
-                                        </div>  
-                                    </div>  
-                                </div>  
-                            </div>  
-                            <!-- Block six -->  
-                            <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">  
-                                <div class="sx-icon-bx-1">  
-                                    <div class="sx-icon-box-wraper">  
-                                        <div class="sx-icon-bx-icon"><span class="sx-text-primary"><i class="flaticon-parking"></i></span></div>  
-                                        <div class="icon-content">  
-                                            <a href="why-hyperlens.html"><h4 class="sx-tilte">Visionary Experts</h4></a>  
-                                            <p>Our dedicated team guides you to a secure compliant future.</p>  
-                                        </div>  
+                                <div class="testimonial-detail">  
+                                    <div class="testimonial-user-info">  
+                                        <h4 class="testimonial-name">Sean
+</h4>  
+                                        <span class="testimonial-position">Technical CoFounder, ContractSent</span>  
                                     </div>  
                                 </div>  
                             </div>  
@@ -523,24 +546,59 @@
                     </div>  
                 </div>  
             </div>  
-        </div>  
-        <!-- WHY CHOOSE-US SECTION END -->  
-  
-        <!-- VIDEO SECTION START -->  
-        <div class="section-full sx-video-1-outer bg-cover" style="background-image:url(images/vid-1-bg.jpg)">  
-            <div class="sx-bg-overlay"></div>  
-            <div class="container">  
-                <div class="sx-vodeo-section text-center">  
-                    <h2 class="sx-large-title">See The Future, Today With Us</h2>  
-                    <div class="sx-video-btn-wrap">  
-                        <a href="https://www.youtube.com/watch?v=P73_4Z6MhWE" class="mfp-video circle">  
-                            <i class="flaticon-play"></i>  
-                        </a>  
-                    </div>  
-                </div>  
-            </div>  
-        </div>  
-        <!-- VIDEO SECTION END -->  
+        </div>   
+           <!-- TESTIMONIAL END -->
+  <!-- ABOUT COMPANY START -->
+            <div  class="section-full  p-t110 p-b80 sx-bg-light sx-about-bx4-outer" >
+                <div class="container">
+
+                    <div class="section-content">
+                        <div class="sx-about-bx4-content-wrap">
+                            <div class="row">
+                            
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="sx-about-bx4-media">
+                                        <div class="sx-ab4-img-outer">
+                                            <div class="sx-ab4-media">
+                                                <img src="images/about/p3.jpg" alt="media">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="sx-about-bx4-content">
+                                        <h2 class="sx-title">Why Choose Us To Join Our Work?</h2>
+                                        <p>Hyper Lens is not just a service provider; we are your strategic ally in achieving and maintaining peak operational resilience and compliance. Our integrated approach ensures that your GRC posture and IT infrastructure are always aligned and future-proof.</p>
+
+
+                                        <ul class="sx-arrow-circle-checked">
+                                            <li>Future-Proof Your Business: AI-driven GRC ensures you're always ahead.</li>
+                                            <li>Achieve Total Compliance: Master complex standards with our expert guidance.</li>
+                                            <li>Gain Unparalleled Visibility: Unified platform for GRC and MSP data.</li>
+                                        </ul>
+
+                                        <a href="why-choose-us.html" class="site-button sx-btn-primary icon sx-btn-lg">
+                                            <i class="fa  fa-long-arrow-right"></i>
+                                            View All
+                                        </a>
+
+
+                                    </div>                                  
+                                </div> 
+
+                                
+                            </div>
+                        </div>
+
+                    </div>   
+           
+                 </div>
+               
+            </div>   
+            <!-- ABOUT COMPANY END -->
+
+         
   
         <!-- Pricing Table START -->
         <div  class="section-full  p-t100 p-b0 sx-bg-light sx-about-bx4-outer" >
@@ -686,76 +744,249 @@
         </div>   
         <!-- Pricing Table END -->
   
-        <!-- CASE STUDY SECTION START -->  
-        <div class="section-full p-t110 p-b80 sx-bg-light sx-case-study-outer wow fadeInDown" data-wow-duration="1000ms">  
-            <div class="container">  
-                <!-- TITLE -->  
-                <div class="section-head left">  
-                    <div class="sx-head-s-title">Our Success</div>  
-                    <div class="sx-head-l-title"><h2 class="sx-title">Integrated GRC MSP Client Achievements</h2></div>  
-                </div>  
-                <div class="large-title-info">  
-                    <p>See how we empower organizations, providing total GRC peace of mind and real operational resilience.</p>  
-                </div>  
-                <!-- CAROUSEL -->  
-                <div class="owl-carousel sx-case-st-carousel">  
-                    <!-- Study One -->  
-                    <div class="item">  
-                        <div class="sx-case-study-bx sx-overlay-effect">  
-                            <div class="sx-case-media sx-img-overlay">  
-                                <a href="portfolio-detail.html"><img src="images/case-study/pic-1.jpg" alt=""></a>  
-                                <a href="portfolio-detail.html" class="sx-case-link"><i class="flaticon-up-right-arrow"></i></a>  
-                            </div>  
-                            <div class="sx-case-info">  
-                                <div class="sx-s-title">Defense Contractor</div>  
-                                <a class="sx-l-title" href="portfolio-detail.html"><h2 class="sx-title">CMMC Level Up, IT Secured Fast</h2></a>  
-                                <div class="sx-case-readmore">  
-                                    <a href="portfolio-detail.html" class="site-button icon"><i class="fa fa-long-arrow-right"></i>Read More</a>  
-                                </div>  
-                            </div>  
+                   <!-- FAQ START -->
+            <div class="section-full  p-t100 p-b0 sx-bg-white sx-faq--outer">
+                <div class="container">
+                    <div class="aon-faq-row-section">
+                        
+                        <!-- Detail SECTION START -->
+                        <div class="sx-faq-style-1-wrap">
+                            <div class="tab-content">
+                                <!--1-->
+                                <div class="tab-pane fade show active" id="day_1" role="tabpanel" >
+                                    <div class="aon-faq-content">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-12">
+                                                <div class="sx-acdn-style-1-section">
+                                                    <div class="accordion sx-acdn-style-1" id="sf-faq-accordion">
+                                                        <!--One-->
+                                                        <div class="accordion-item">
+                                
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ1" aria-expanded="false" >
+                                                                What is AI-Powered GRC and how does Hyper Lens leverage it?
+                                                            </button>
+                                
+                                                            <div id="FAQ1" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                AI-Powered GRC uses artificial intelligence to automate, predict, and manage governance, risk, and compliance processes. Hyper Lens leverages AI to provide predictive insights, automate compliance tasks, and offer a proactive approach to risk management, ensuring you stay ahead of potential threats and regulatory changes.
+                                                                </div>
+                                                            </div>
+                                
+                                                        </div>
+                                
+                                                        <!--Two-->
+                                                        <div class="accordion-item">
+                                                          
+                                                            <button class="accordion-button" type="button"  data-bs-toggle="collapse" data-bs-target="#FAQ2" aria-expanded="true">
+                                                                How does the integrated MSP service complement your GRC solutions?
+                                                            </button>
+                                
+                                                            <div id="FAQ2" class="accordion-collapse collapse show"  data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                Our elite MSP services are tightly integrated with our GRC platform. This means your IT operations are continuously monitored and managed not just for performance, but also for ongoing compliance with relevant standards (e.g., CMMC, SOC 2). GRC insights directly inform MSP actions, creating a resilient and secure IT environment.
+                                                                </div>
+                                                            </div>
+                                
+                                                        </div>
+                                
+                                                        <!--Three-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ3" aria-expanded="false">
+                                                                Can Hyper Lens help with specific compliance frameworks like FedRAMP or CMMC?
+                                                            </button>
+                                
+                                                            <div id="FAQ3" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                Absolutely. We have deep expertise in a wide array of complex regulatory frameworks including FedRAMP, CMMC (all levels), SOC 2, HIPAA, NIST, and ISO standards. Our platform and services are designed to simplify adherence and accelerate certification for these and more.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Four-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ4" aria-expanded="false">
+                                                                What is the 'Hyper Lens Platform Core' and its main benefits?
+                                                            </button>
+                                
+                                                            <div id="FAQ4" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                The Hyper Lens Platform Core is our unified dashboard that provides a single pane of glass view into all your GRC and MSP data. Key benefits include real-time visibility, AI-driven analytics, custom alerts, and a holistic understanding of your security and compliance posture, pulling data from sources like Azure Advisor and other cloud inputs.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Five-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ5" aria-expanded="false">
+                                                                How does Hyper Lens ensure our data is prepared for AI analysis?
+                                                            </button>
+                                
+                                                            <div id="FAQ5" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                Our platform includes robust data aggregation and preparation capabilities. We utilize Hyper Lens Data Aggregation and Cloud API Connectors to gather data from disparate sources. This data is then cleaned, structured, and prepared specifically for optimal AI analysis, ensuring accurate and actionable insights.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Six-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ6" aria-expanded="false">
+                                                                What kind of support and training does Hyper Lens offer?
+                                                            </button>
+                                
+                                                            <div id="FAQ6" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion">
+                                                                <div class="accordion-body">
+                                                                We offer comprehensive support and training, including dedicated implementation and onboarding assistance, expert consulting services for tailored GRC strategies, and ongoing technical support. Our goal is to empower your team to fully leverage the Hyper Lens platform and achieve lasting compliance success.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-12">
+                    <div class="contact-home-1-form sx-bg-light">
+                        <h4 class="sx-title">Get In Touch</h4>
+                            <form class="cons-contact-form2 form-transparent" method="post" action="form-handler2.php">
+                    <div class="input input-animate">
+                    <input type="text" name="username" id="name" required="" placeholder="Your Full Name">
+                        <span class="spin"></span>
+                </div>
+                    <div class="input input-animate">
+                            <input type="email" name="email" id="email" required="" placeholder="Your Business Email">
+                    <span class="spin"></span>
+                </div>
+                    <div class="input input-animate">
+                <input type="text" name="phone" id="Phone" required="" placeholder="Company Phone Number">
+                <span class="spin"></span>
+            </div>
+            <div class="input textarea input-animate">
+                <textarea name="message" id="message" required="" placeholder="Your GRC/MSP Inquiry"></textarea>
+                <span class="spin"></span>
+            </div>
+            <div class="sx-btn-center text-center p-t10">
+                <button type="submit" class="site-button sx-btn-primary icon sx-btn-lg">
+                    <i class="fa fa-long-arrow-right"></i>
+                    Send Your Message
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--2-->
+                                <div class="tab-pane fade" id="day_2" role="tabpanel">
+                                    <div class="aon-faq-content">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-12">
+                                                <div class="sx-acdn-style-1-section">
+                                                    <div class="accordion sx-acdn-style-1" id="sf-faq-accordion-1">
+                                                        <!--One-->
+                                                        <div class="accordion-item">
+                                
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ1-1" aria-expanded="false" >
+                                                                What should be listed on a business card?
+                                                            </button>
+                                
+                                                            <div id="FAQ1-1" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                
+                                                        </div>
+                                
+                                                        <!--Two-->
+                                                        <div class="accordion-item">
+                                                          
+                                                            <button class="accordion-button" type="button"  data-bs-toggle="collapse" data-bs-target="#FAQ2-1" aria-expanded="true">
+                                                                What is the standard size of business cards?
+                                                            </button>
+                                
+                                                            <div id="FAQ2-1" class="accordion-collapse collapse show"  data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                
+                                                        </div>
+                                
+                                                        <!--Three-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ3-1" aria-expanded="false">
+                                                                What should be listed on a business card?
+                                                            </button>
+                                
+                                                            <div id="FAQ3-1" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Four-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ4-1" aria-expanded="false">
+                                                                How do I design my own business cards?
+                                                            </button>
+                                
+                                                            <div id="FAQ4-1" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Five-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ5-1" aria-expanded="false">
+                                                                Design my own business cards?
+                                                            </button>
+                                
+                                                            <div id="FAQ5-1" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <!--Six-->
+                                                        <div class="accordion-item">
+                                                            
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ6-1" aria-expanded="false">
+                                                                What should be listed on a business card?
+                                                            </button>
+                                
+                                                            <div id="FAQ6-1" class="accordion-collapse collapse"  data-bs-parent="#sf-faq-accordion-1">
+                                                                <div class="accordion-body">
+                                                                Nullam pulvinar, enim ornare tristique vehicula, massa est eleifend velit pellentesque hendrerit. Morbi condimentum in elit in lobortis. Maurisvit velit erat. Nunc in urna sit amet nisi venenatis listed on a business card.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>  
-                    </div>  
-                    <!-- Study Two -->  
-                    <div class="item">  
-                        <div class="sx-case-study-bx sx-overlay-effect">  
-                            <div class="sx-case-media sx-img-overlay">  
-                                <a href="portfolio-detail.html"><img src="images/case-study/pic-2.jpg" alt=""></a>  
-                                <a href="portfolio-detail.html" class="sx-case-link"><i class="flaticon-up-right-arrow"></i></a>  
-                            </div>  
-                            <div class="sx-case-info">  
-                                <div class="sx-s-title">Federal Agency</div>  
-                                <a class="sx-l-title" href="portfolio-detail.html"><h2 class="sx-title">FedRAMP Achieved, Future Ready Now</h2></a>  
-                                <div class="sx-case-readmore">  
-                                    <a href="portfolio-detail.html" class="site-button icon"><i class="fa fa-long-arrow-right"></i>Read More</a>  
-                                </div>  
-                            </div>  
-                        </div>  
-                    </div>  
-                </div>  
-                <!-- TESTIMONIALS -->  
-                <div class="sx-testimonial-bx-1">  
-                    <div class="owl-carousel testimonial-2-wrap owl-btn-vertical-center">  
-                        <div class="item">  
-                            <div class="testimonial-2 hover-animation-1">  
-                                <div class="testimonial-text">  
-                                    <span class="testimonial-quote sx-text-primary"><i class="flaticon-quote"></i></span>  
-                                    <p>"Contract Sent has greatly benefited from the expertise of Hyper Lens in maintaining platform security and ensuring compliance with industry standards such as GRC, CMMC, and SOC 2. Their in-depth knowledge of security and compliance has provided the assurance needed as Contract Sent scales its AI contract management services."</p>  
-                                </div>  
-                                <div class="testimonial-detail">  
-                                    <div class="testimonial-user-info">  
-                                        <h4 class="testimonial-name">Sean
-</h4>  
-                                        <span class="testimonial-position">Technical CoFounder, ContractSent</span>  
-                                    </div>  
-                                </div>  
-                            </div>  
-                        </div>  
-                    </div>  
-                </div>  
-            </div>  
-        </div>  
-        <!-- CASE STUDY SECTION END -->  
-  
+                        <!-- Detail SECTION END -->
+                        
+                    </div>
+                </div>
+            </div>
+			<!-- FAQ END -->
         <!-- LATEST BLOG START -->  
         <div class="section-full p-t110 p-b80 sx-bg-white sx-latest-blog-outer wow fadeInDown" data-wow-duration="1000ms">  
             <div class="container">  
